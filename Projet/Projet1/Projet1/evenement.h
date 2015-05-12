@@ -58,15 +58,9 @@ private :
 public:
 	TacheUnitairePreemptee(TIME::Date dDispo, TIME::Date dEcheanceGlobale, std::string titre, TIME::Duree d) : TacheUnitaire(dDispo, dEcheanceGlobale, titre), dureeInitiale(d), dureeEffectuee(0){};
 	const TIME::Duree& const getDureeEffectuee() const {return dureeEffectuee;};
-	const TIME::Duree getDureeRestante() const{
-		int d = dureeInitiale.getDureeEnMinutes() - dureeEffectuee.getDureeEnMinutes();
-		return TIME::Duree(d / 60, d % 60);
-	}
+	const TIME::Duree getDureeRestante() const;
 	void setDureeEffectuee(TIME::Duree dEffectuee) {dureeEffectuee = dEffectuee;}
-	void ajouterDureeEffectuee(TIME::Duree dEffectuee) {
-		int d = dureeEffectuee.getDureeEnMinutes() + dEffectuee.getDureeEnMinutes();
-		dureeEffectuee.setDuree(d / 60, d % 60);
-	}
+	void ajouterDureeEffectuee(TIME::Duree dEffectuee);
 };
 
 

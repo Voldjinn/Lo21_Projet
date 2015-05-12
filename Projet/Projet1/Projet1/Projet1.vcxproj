@@ -65,11 +65,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="evenement.h" />
+    <ClInclude Include="Programmation.h" />
+    <ClInclude Include="Projet.h" />
     <ClInclude Include="timing.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="evenement.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Programmation.cpp" />
+    <ClCompile Include="Projet.cpp" />
     <ClCompile Include="timing.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

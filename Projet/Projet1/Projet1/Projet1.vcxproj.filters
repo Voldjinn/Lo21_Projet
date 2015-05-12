@@ -21,6 +21,12 @@
     <ClInclude Include="timing.h">
       <Filter>Fichiers de ressources</Filter>
     </ClInclude>
+    <ClInclude Include="Programmation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Projet.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="evenement.cpp">
@@ -30,6 +36,12 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Projet.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
