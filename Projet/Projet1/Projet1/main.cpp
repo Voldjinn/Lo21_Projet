@@ -1,7 +1,11 @@
-#include "evenement.h"
+#include "fenetre_depart.h"
 #include <iostream>
 
-int main(){
-	std::cout << "test compilation\n";
+using namespace std;
+
+
+int main(int argc, char* argv[]) {
+	cout << "test compilation";
 	return 0;
 }
+

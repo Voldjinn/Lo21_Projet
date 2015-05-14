@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programmations>
+  <programmation>
+          <id>P1</id>
+          <date>2015-02-28</date>
+          <horaire>0830</horaire>
+          <evenement>REU1</evenement>
+  </programmation>
+  <programmation>
+          <id>P2</id>
+          <date>2015-02-28</date>
+          <horaire>1400</horaire>
+          <evenement>RDV1</evenement>
+  </programmation>
+  <programmation>
+          <id>P3</id>
+          <date>2015-02-29</date>
+          <horaire>1000</horaire>
+          <evenement>T2</evenement>
+  </programmation>
+</programmations>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 3.4.0, 2015-05-12T15:20:36. -->
+<!-- Written by QtCreator 3.3.2, 2015-05-13T13:04:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{9406d7a2-9156-4480-962f-d7e52793409d}</value>
+  <value type="QByteArray">{a3c8a92b-1f76-4b0e-986a-32610577efdb}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -76,7 +76,6 @@
       <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibraryAuto">true</value>
       <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
-      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
@@ -131,7 +130,6 @@
       <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibraryAuto">true</value>
       <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
-      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
@@ -227,8 +225,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">TD7</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Thomas/Desktop/PROGRAMMATION/LO21/Lo21_Projet/UML_&amp;_TD/TD/TD7/TD7.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">TD72</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Fixe/Desktop/Programmation/LO21/Lo21_Projet/UML_&amp;_TD/TD/TD7/TD7.pro</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">TD7.pro</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
@@ -265,7 +263,6 @@
       <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibraryAuto">true</value>
       <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
-      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
@@ -320,7 +317,6 @@
       <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibraryAuto">true</value>
       <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
-      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
       <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
