@@ -21,7 +21,7 @@ public slots:
 	void accesEdt();
 	void accesProjet();
 public:
-	FenetreDepart(QWidget *parent = 0);
+    FenetreDepart();
 	~FenetreDepart();
 
 };
@@ -35,7 +35,7 @@ private:
 	QLabel *text;
 	QDateEdit *choix;
 public:
-	ChoixSemaine(QWidget *parent = 0);
+    ChoixSemaine();
 	~ChoixSemaine();
 public slots:
 	void accesEdT();
@@ -52,7 +52,7 @@ private:
 	QLabel *text;
 	QScrollArea *listeProjets;
 public:
-	ChoixProjet(QWidget *parent = 0);
+    ChoixProjet();
 	~ChoixProjet();
 };
 

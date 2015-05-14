@@ -20,7 +20,7 @@ private:
 	QStringList * week;
 	QStringList  * hours;
 public:
-	EmploiDuTemps(QDate date, QObject *parent=0);
+    EmploiDuTemps(QDate date);
 	~EmploiDuTemps();
 public slots :
 	void editItem(QModelIndex & index);

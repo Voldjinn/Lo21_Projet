@@ -1,6 +1,6 @@
 #include "fenetre_depart.h"
 
-FenetreDepart::FenetreDepart(QWidget *parent){
+FenetreDepart::FenetreDepart(){
 	layout = new QVBoxLayout;
 	affichageEdt = new QPushButton("afficher Emploi du Temps");
 	exportEdt = new QPushButton("exporter EdT");
@@ -40,7 +40,7 @@ FenetreDepart::~FenetreDepart(){
 
 
 
-ChoixSemaine::ChoixSemaine(QWidget *parent){
+ChoixSemaine::ChoixSemaine(){
 	lay = new QGridLayout;
 	valider = new QPushButton("valider");
 	text = new QLabel("date :");
@@ -66,7 +66,7 @@ ChoixSemaine::~ChoixSemaine(){
 }
 
 
-ChoixProjet::ChoixProjet(QWidget *parent){
+ChoixProjet::ChoixProjet(){
 	lay = new QGridLayout;
 	valider = new QPushButton("Valider");
 	newProjet = new QPushButton("Nouveau Projet");

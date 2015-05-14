@@ -11,9 +11,9 @@ private:
 	QString titre;
 	QString id;
 public:
-	Evenement(QString t) : titre(t){};
+    Evenement(QString t) : titre(t){}
 	virtual bool isTache() const = 0;
-	const QString& getTitre() const { return titre; };
+    const QString& getTitre() const { return titre; }
 	const QString& getId() const { return id; }
 };
 
@@ -24,11 +24,11 @@ protected:
 	QDate dateDispo;
 	QDate echeance;
 public:
-	Tache(QDate dDispo, QDate dEcheance, QString titre) : Evenement(titre), dateDispo(dDispo), echeance(dEcheance){};
+    Tache(QDate dDispo, QDate dEcheance, QString titre) : Evenement(titre), dateDispo(dDispo), echeance(dEcheance){}
 	virtual const QDate& getDateEcheance() const = 0;
 	virtual bool isTache() { return true; }
 	virtual bool isComposite() { return false; }
-	const QDate& getDateDisponibilite() const { return dateDispo; };
+    const QDate& getDateDisponibilite() const { return dateDispo; }
 };
 
 
@@ -39,7 +39,7 @@ private:
 	Tache** sousTaches;
 	int nbSousTaches;
 protected:
-	TacheComposite(const QDate& dDispo, const QDate& dEcheanceGlobale,const QString& titre) : Tache(dDispo, dEcheanceGlobale, titre), sousTaches(nullptr), nbSousTaches(0){};
+    TacheComposite(const QDate& dDispo, const QDate& dEcheanceGlobale,const QString& titre) : Tache(dDispo, dEcheanceGlobale, titre), sousTaches(nullptr), nbSousTaches(0){}
 	virtual bool isComposite() { return true; }
 	///////////////faire les fonctions pour gérer le tableau !!!!!!!!!!!!///////
 	/*
@@ -54,7 +54,7 @@ protected:
 /////////////////////////////// Tache Unitaire   //////////////////////////////////////
 class TacheUnitaire : public Tache{
 protected:
-	TacheUnitaire(const QDate& dDispo, const QDate& dEcheance, const QString& titre) : Tache(dDispo, dEcheance, titre){};
+    TacheUnitaire(const QDate& dDispo, const QDate& dEcheance, const QString& titre) : Tache(dDispo, dEcheance, titre){}
 public:
 	virtual const QDate& getDateEcheance() const { return echeance; }
 	virtual bool isPreemptive() const = 0;
@@ -69,7 +69,7 @@ private:
 	Duree dureeInitiale;
 public:
 	virtual bool isPreemptive() const { return true; }
-	TacheUnitairePreemptee(const QDate& dDispo, const QDate& dEcheance, const QString& titre, const Duree& d) : TacheUnitaire(dDispo, dEcheance, titre), dureeInitiale(d), dureeEffectuee(0){};
+    TacheUnitairePreemptee(const QDate& dDispo, const QDate& dEcheance, const QString& titre, const Duree& d) : TacheUnitaire(dDispo, dEcheance, titre), dureeInitiale(d), dureeEffectuee(0){}
 	void setDureeEffectuee(const Duree& dEffectuee) { dureeEffectuee = dEffectuee; }
 	void ajouterDureeEffectuee(const Duree& dEffectuee) { dureeEffectuee += dEffectuee;}
 	virtual const Duree& getDuree() const { return dureeInitiale; }
@@ -83,7 +83,7 @@ private:
 public:
 	virtual bool isPreemptive() const { return false; }
 	virtual const Duree& getDuree() const { return duree; }
-	TacheUnitaireNonPreemptee(const QDate& dDispo, const QDate& dEcheance, const QString& titre, const Duree& d) : TacheUnitaire(dDispo, dEcheance, titre), duree(d){};
+    TacheUnitaireNonPreemptee(const QDate& dDispo, const QDate& dEcheance, const QString& titre, const Duree& d) : TacheUnitaire(dDispo, dEcheance, titre), duree(d){}
 };
 
 

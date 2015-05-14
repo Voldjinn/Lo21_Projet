@@ -3,7 +3,7 @@
 
 
 
-EmploiDuTemps::EmploiDuTemps(QDate date, QObject *parent){
+EmploiDuTemps::EmploiDuTemps(QDate date){
 	date.addDays(-date.dayOfWeek() + 1);   //permet d'avoir le lundi correspondant à n'importe quel jour d'une semaine
 	/*
 	
