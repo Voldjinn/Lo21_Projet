@@ -45,10 +45,12 @@ ChoixSemaine::ChoixSemaine(){
 	valider = new QPushButton("valider");
 	text = new QLabel("date :");
 	choix = new QDateEdit;
-	this->setLayout(lay);
+    setLayout(lay);
 	lay->addWidget(text, 0, 0);
 	lay->addWidget(choix,1,0,1,3);
 	lay->addWidget(valider, 2, 1, 1, 1);
+
+
 
 	QObject::connect(valider, SIGNAL(clicked()), this, SLOT(accesEdT()));
 }
@@ -74,11 +76,13 @@ ChoixProjet::ChoixProjet(){
 	text = new QLabel("Projets disponibles : ");
 	listeProjets = new QScrollArea;
 	this->setLayout(lay);
+    resize(450,250);
 	lay->addWidget(text, 0, 0);
-	lay->addWidget(listeProjets,1,0,2,1);
-	lay->addWidget(newProjet,1,1);
-	lay->addWidget(delProjet, 2, 1);
-	lay->addWidget(valider, 3, 1);
+    lay->addWidget(listeProjets,1,0,5,1);
+    lay->addWidget(newProjet,2,1);
+    lay->addWidget(delProjet, 4, 1);
+    lay->addWidget(valider,6,1);
+    listeProjets->setWidgetResizable(true);
 }
 
 ChoixProjet::~ChoixProjet(){
