@@ -1,20 +1,9 @@
-#include <QApplication>
-#include "fenetre_depart.h"
-
-
-int main(int argc, char* argv[]) {
-	QApplication app(argc, argv);
-	FenetreDepart fenetre;
-	fenetre.show();
-    return app.exec();
-}
-
 /*
- *
- *      Reste Ã  faire :
- *              implementer les classes : Projet / ProjetManager /
+ * 
+ *      Reste à faire :
+ *              implementer les classes : Projet / ProjetManager / 
  *              terminer les classes programmation/ programmationManager
- *              implÃ©menter les fonctions pour lecture/ecriture XML
+ *              implémenter les fonctions pour lecture/ecriture XML 
  *                      ->lors de l'ouverture de la fenetre principale :
  *                              -creer instances ProgrammationManager/TacheManager
  *                              -leur demander de creer les evenements / programmations correspondants au XML

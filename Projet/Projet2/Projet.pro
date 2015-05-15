@@ -5,8 +5,7 @@ QT+= widgets
 
 DISTFILES += \
     evenements.xml \
-    programmations.xml \
-    Projet.pro.user
+    programmations.xml
 
 HEADERS += \
     duree.h \
